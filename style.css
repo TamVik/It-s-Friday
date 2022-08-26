@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    background-color: #fbff12;
+    font-family: 'Silkscreen', cursive;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 60px;
+
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    background-color: #f15bb5;
+    border: 10px solid #f896d8;
+    border-radius: 15px;
+}
+
+
+.gif-container:hover {
+    background: url(Friday.gif);
+    background-size: cover;
+    width: 400px;
+    cursor: url(custom_cursor.svg), auto;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
